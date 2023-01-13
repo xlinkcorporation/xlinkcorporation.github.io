@@ -1,0 +1,340 @@
+@font-face {
+    font-family: D-DIN;
+    src: url(D-DIN-Bold.otf);
+}
+@font-face {
+    font-family: D-DIN2;
+    src: url(D-DIN.otf);
+}
+
+body{
+    background-color: black;
+    font-family: D-DIN;
+    color: white;
+
+	background-size:  100%;
+    background-repeat:no-repeat;
+	background-position: center ;
+
+
+}
+.container{
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.textotrabajo{
+	font-size: 50px;
+}
+
+
+
+
+
+.TRABAJA{
+	align-items: center;
+	width: 70%;
+	height: 70%;
+	margin: 0 auto;
+}
+
+.reset {
+	clear: both;
+	height: 70%;
+	width: 70%;
+	margin: 0 auto;
+  }
+
+.txt2{
+	height: 40%;
+	width: 40%;
+	border-color: solid	1px wheat;
+}
+
+header {
+	width: 100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:40px;
+	line-height:100px;
+	float:left;
+	text-decoration: none;
+}
+.alogo{
+	text-decoration: none;
+	color: white;
+}
+
+header nav {
+	float:right;
+	line-height:100px;
+}
+
+
+/* FORMATO ENLACES */
+
+.atest {
+    text-decoration: none;
+	color: white;
+	padding:10px 20px;
+	font-size:16px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1px;
+    transition: background-size .60s;
+}
+.atest:hover, a:focus {
+    background-size: 100% 1px;
+}
+
+
+table,tr,th,td{
+
+
+border: white 3px solid;
+border-collapse: collapse;
+margin: 0 auto;
+}
+
+
+
+.p{
+	float: right;
+	font-family: D-DIN2;
+	color: rgb(255, 255, 255);
+	margin: 10%;
+	pad: 10%;
+}
+
+
+
+
+
+
+
+	h1{
+		font-size: 150px;
+	 
+	}
+
+
+	.txt1{
+		text-align: center;
+		margin: 20px 20px;
+	}
+
+	.contactoform{
+		position: absolute;
+		width: 300px;
+		height: 300px;
+		overflow:auto;
+		background-color: green;
+		align-items: center;
+	}
+
+	
+
+	/* login */
+
+	#contenedor {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+		margin: 0;
+		padding: 0;
+		min-width: 100vw;
+		min-height: 70vh;
+		width: 100%;
+		height: 100%;
+	}
+	
+	#central {
+		max-width: 500px;
+		width: 100%;
+	}
+	
+	.titulo {
+		font-size: 250%;
+		color:#000000;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	
+	#login {
+		width: 100%;
+		padding: 50px 30px;
+		background-color: #d6d6d6;
+		
+		-webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+		-moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+		box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+		
+		border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px 3px 3px 3px;
+		-webkit-border-radius: 3px 3px 3px 3px;
+		
+		box-sizing: border-box;
+	}
+
+	#login input {
+		font-size: 110%;
+		color: #000000;
+		
+		display: block;
+		width: 100%;
+		height: 50px;
+		
+		margin-bottom: 10px;
+		padding: 5px 5px 5px 10px;
+		
+		box-sizing: border-box;
+		
+		border: none;
+		border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px 3px 3px 3px;
+		-webkit-border-radius: 3px 3px 3px 3px;
+	}
+	
+	#login input::placeholder {
+		
+		color: #000000;
+	}
+	
+	#login button {
+		
+		font-size: 110%;
+		color:#000000;
+		width: 100%;
+		height: 40px;
+		border: none;
+		
+		border-radius: 3px 3px 3px 3px;
+		-moz-border-radius: 3px 3px 3px 3px;
+		-webkit-border-radius: 3px 3px 3px 3px;
+		
+		background-color: #ffffff;
+		
+		margin-top: 10px;
+	}
+	
+	#login button:hover {
+		background-color: #ff7300;
+		color:#ffffff;
+	}
+	
+	.pie-form {
+		font-size: 90%;
+		text-align: center;    
+		margin-top: 15px;
+	}
+	
+	.pie-form a {
+		display: block;
+		text-decoration: none;
+		color: #000000;
+		margin-bottom: 3px;
+	}
+	
+	.pie-form a:hover {
+		color: #ff7300;
+	}
+	
+	.inferior {
+		margin-top: 10px;
+		font-size: 90%;
+		text-align: center;
+	}
+	
+	.inferior a {
+		display: block;
+		text-decoration: none;
+		color: #ffffff;
+		margin-bottom: 3px;
+	}
+	
+	.inferior a:hover {
+		color: #ff7300;
+	}
+
+
+
+
+
+
+
+
+	/* IMAGENES */
+
+	
+	.logoimg{
+	
+		display: block;
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		
+		}
+
+
+	.imgsatelites{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 40%;
+		height: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+
+	}
+
+	iframe{
+		width: 100%;
+		height:100vh;
+	}
+
+
+
+
+
+
+
+
+
+
+
+	.textoserv{
+		margin-left: 100px;
+		margin-right: 100px;
+		font-size: 0.6cm;
+	}
+
+
+
+
+
+.divtextoserv{
+	justify-content:center;
+	display:table-cell;
+	text-align: justify;
+	
+	
+}
+
+	
